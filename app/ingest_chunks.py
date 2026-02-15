@@ -3,10 +3,10 @@ import json
 
 # --- DATABASE CONNECTION ---
 conn = psycopg2.connect(
-    host="db.nshtnlajhxypcjmbkcpe.supabase.co",
+    host="SUPABASE_ID",
     database="postgres",
     user="postgres",
-    password="Mohit@1993%%",
+    password="PASSWORD",
     port="5432",
     sslmode="require"
 )
