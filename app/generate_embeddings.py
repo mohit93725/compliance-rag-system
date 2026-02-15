@@ -7,10 +7,10 @@ model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
 
 # Connect to Supabase
 conn = psycopg2.connect(
-    host="db.nshtnlajhxypcjmbkcpe.supabase.co",
+    host="SUPABASE_ID",
     database="postgres",
     user="postgres",
-    password="Mohit@1993%%",
+    password="YOUR PASSWORD",
     port="5432",
     sslmode="require"
 )
