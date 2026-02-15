@@ -8,10 +8,10 @@ query = "What is the minimum capital adequacy ratio required for NBFC?"
 query_embedding = model.encode(query).tolist()
 
 conn = psycopg2.connect(
-    host="db.nshtnlajhxypcjmbkcpe.supabase.co",
+    host="SUPABASE_ID",
     database="postgres",
     user="postgres",
-    password="Mohit@1993%%",
+    password="PASSWORD",
     port="5432",
     sslmode="require"
 )
